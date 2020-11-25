@@ -35,8 +35,9 @@ export default class SignInScreen extends Component {
                         <Text style={{ width: '87%', textAlign: 'center', fontSize: 18, color: "#fff" }}>Create An Account</Text>
                     </View>
                 </LinearGradient>
-                <View style={{width:'90%'}}>
+                <View style={{ width: '90%' }}>
                     <Input
+                        label={'First Name'}
                         placeholder='First Name'
                     />
 
